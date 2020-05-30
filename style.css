@@ -146,7 +146,9 @@ li:hover{
 }
 
 
-
+h1 {
+    margin-left: 60px;
+}
 
 .little {
     font-size: 1rem;
@@ -169,7 +171,6 @@ article {
 }
 
 .pictures {
-    height: 200px;
     margin: 10px;
     float:right;
     display: inline-block;
@@ -179,8 +180,19 @@ article {
     max-width: 90%;
       
 }
+
+@media (min-width:359px){
+    .menu{
+    width: 40vw;
+    margin-left: -6vw;
+    }
+}
+
 @media (min-width:400px){
-   
+   .menu{
+    width: 30vw;
+    margin-left: -5vw;
+    }
     .pics{
     height: 150px;
     margin: 10px;
@@ -219,5 +231,8 @@ article {
     .lightbox .cyphers {
 	width: auto;
 	margin-top: 5%;
-}
+    }
+    .menu{
+    margin-left: -3vw;
+    }
 }
